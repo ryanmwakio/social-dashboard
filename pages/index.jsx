@@ -25,7 +25,7 @@ export default function Home() {
           <div className="sm:col-span-6">
             <MiddleCol />
           </div>
-          <div className="sm:col-span-3">
+          <div className="sm:col-span-2">
             <RightCol />
           </div>
         </div>

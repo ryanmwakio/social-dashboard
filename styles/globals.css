@@ -77,3 +77,10 @@ body {
   height: 100vh;
   overflow-y: scroll;
 }
+
+.right-col {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+

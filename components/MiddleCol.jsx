@@ -42,7 +42,7 @@ function MiddleCol() {
           </a>
           <a
             href=""
-            className=" text-2xs rounded-md bg-grayBrown p-2 font-medium"
+            className=" rounded-md bg-grayBrown p-2 text-xs font-medium"
           >
             Popular Stories
           </a>
