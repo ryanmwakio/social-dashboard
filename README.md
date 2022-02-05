@@ -1,27 +1,37 @@
-# Next.js + Tailwind CSS Example
+### SOCIAL DASHNOARD UI
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+---
 
-## Preview
+Interface developed using React Js, Next Js, Tailwind Css
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+---
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+![dash ui](./public/dash.png)
 
-## Deploy your own
+#### project hosted on vercel [hosting](https://social-dashboard-eight.vercel.app/)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+---
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+#### Installation
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+clone the project
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+git clone https://github.com/ryanmwakio/social-dashboard.git
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+#### install all dependencies:
+
+Navigate into the project either through terminal or IDE then run
+
+```
+npm install
+```
+
+After all dependencies have been installed then run:
+
+```bash
+npm run dev
+```
+
+An instance of the app should run on localhost:3000 or [http://127.0.0.1:3000](http://127.0.0.1:3000)
