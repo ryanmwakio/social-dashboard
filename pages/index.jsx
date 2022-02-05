@@ -18,14 +18,14 @@ export default function Home() {
       </Head>
 
       <main className="container">
-        <div className="grid grid-cols-11 gap-3 overflow-hidden bg-white">
-          <div className="col-span-2">
+        <div className="grid grid-cols-1 gap-3 overflow-hidden bg-white sm:grid-cols-11">
+          <div className="sm:col-span-2">
             <LeftCol />
           </div>
-          <div className="col-span-6">
+          <div className="sm:col-span-6">
             <MiddleCol />
           </div>
-          <div className="col-span-3">
+          <div className="sm:col-span-3">
             <RightCol />
           </div>
         </div>

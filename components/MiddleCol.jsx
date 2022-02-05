@@ -28,7 +28,7 @@ function MiddleCol() {
               <input
                 type="search"
                 name="q"
-                class="rounded-md border border-gray-300 bg-grayBrown  py-2 pl-10 text-xs text-white transition-all focus:bg-white focus:text-gray-900 focus:shadow-sm focus:outline-none"
+                class="rounded-md border border-gray-300 bg-grayBrown  py-2 pl-10 text-xs text-white transition-all focus:border-lightBlue focus:bg-white focus:text-gray-900 focus:shadow-md focus:outline-none "
                 placeholder="Search"
                 autocomplete="off"
               />
@@ -42,47 +42,124 @@ function MiddleCol() {
           </a>
           <a
             href=""
-            className=" rounded-md bg-grayBrown p-2 text-xs font-medium"
+            className=" text-2xs rounded-md bg-grayBrown p-2 font-medium"
           >
             Popular Stories
           </a>
         </div>
 
-        <div class="posts w-96 overflow-x-scroll">
-          <div className="inline-block">
-            <img
-              src="./images/palm-trees.jpg"
-              alt=""
-              className="w-50 mr-5 inline-block h-40 cursor-pointer rounded-xl object-cover shadow-xl"
-            />
-          </div>
-          <div className="inline-block">
-            <img
-              src="./images/palm-trees.jpg"
-              alt=""
-              className="w-50 mr-5 inline-block h-40 cursor-pointer rounded-xl object-cover shadow-xl"
-            />
-          </div>
-          <div className="inline-block">
-            <img
-              src="./images/palm-trees.jpg"
-              alt=""
-              className="w-50 mr-5 inline-block h-40 cursor-pointer rounded-xl object-cover shadow-xl"
-            />
-          </div>
-          <div className="inline-block">
-            <img
-              src="./images/palm-trees.jpg"
-              alt=""
-              className="w-50 mr-5 inline-block h-40 cursor-pointer rounded-xl object-cover shadow-xl"
-            />
-          </div>
-          <div className="inline-block">
-            <img
-              src="./images/palm-trees.jpg"
-              alt=""
-              className="w-50 mr-5 inline-block h-40 cursor-pointer rounded-xl object-cover shadow-xl"
-            />
+        <div class="posts">
+          <img
+            src="./images/palm-trees.jpg"
+            alt=""
+            className="w-70 mr-5 inline-block h-40 cursor-pointer rounded-xl object-cover shadow-lg"
+          />
+
+          <img
+            src="./images/mosque.jpg"
+            alt=""
+            className="w-70 mr-5 inline-block h-40 cursor-pointer rounded-xl object-cover shadow-lg"
+          />
+
+          <img
+            src="./images/penguin.jpg"
+            alt=""
+            className="w-70 mr-5 inline-block h-40 cursor-pointer rounded-xl object-cover shadow-lg"
+          />
+
+          <img
+            src="./images/evening-sky.jpg"
+            alt=""
+            className="w-70 mr-5 inline-block h-40 cursor-pointer rounded-xl object-cover shadow-lg"
+          />
+
+          <img
+            src="./images/zebra.jpg"
+            alt=""
+            className="w-70 mr-5 inline-block h-40 cursor-pointer rounded-xl object-cover shadow-lg"
+          />
+
+          <img
+            src="./images/lion.jpg"
+            alt=""
+            className=" w-70 mr-5 inline-block h-40 cursor-pointer rounded-xl object-cover shadow-lg"
+          />
+
+          <img
+            src="./images/coc.jpg"
+            alt=""
+            className=" w-70 mr-5 inline-block h-40 cursor-pointer rounded-xl object-cover shadow-lg"
+          />
+
+          <img
+            src="./images/design.jpg"
+            alt=""
+            className=" w-70 mr-5 inline-block h-40 cursor-pointer rounded-xl object-cover shadow-lg"
+          />
+
+          <img
+            src="./images/oreo.jpg"
+            alt=""
+            className=" w-70 mr-5 inline-block h-40 cursor-pointer rounded-xl object-cover shadow-lg"
+          />
+
+          <img
+            src="./images/loading.gif"
+            alt=""
+            className="mt-16 mr-5 inline-block h-6 w-6"
+          />
+        </div>
+
+        <div className="flex w-full justify-between">
+          <a href="#" className=" text-sm font-bold">
+            Latest Feed
+          </a>
+        </div>
+
+        <div className="feed my-4">
+          <div className="grid grid-cols-3 gap-4">
+            <div>
+              <img
+                src="./images/elephants.jpg"
+                alt=""
+                className="h-full w-full cursor-pointer rounded-xl shadow-md"
+              />
+            </div>
+            <div>
+              <img
+                src="./images/city.jpg"
+                alt=""
+                className="h-full w-full cursor-pointer rounded-xl shadow-md"
+              />
+            </div>
+            <div>
+              <img
+                src="./images/arch.jpg"
+                alt=""
+                className="h-full w-full cursor-pointer rounded-xl shadow-md"
+              />
+            </div>
+            <div>
+              <img
+                src="./images/arch2.jpg"
+                alt=""
+                className="h-full w-full cursor-pointer rounded-xl shadow-md"
+              />
+            </div>
+            <div>
+              <img
+                src="./images/clouds.jpg"
+                alt=""
+                className="h-full w-full cursor-pointer rounded-xl shadow-md"
+              />
+            </div>
+            <div>
+              <img
+                src="./images/nature.jpg"
+                alt=""
+                className="h-full w-full cursor-pointer rounded-xl shadow-md"
+              />
+            </div>
           </div>
         </div>
       </div>

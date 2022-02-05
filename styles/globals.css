@@ -2,12 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-grayBrown;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(212, 212, 212);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(155, 155, 155);
+}
+
+html {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+}
+
 html,
 body {
   font-family: 'Public Sans', sans-serif;
   line-height: 1.3;
   font-size: 16px;
-  @apply bg-lightBlue;
+  @apply bg-white;
 }
 
 .text-2xs {
@@ -15,7 +47,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   max-width: 1300px;
   margin: 0 auto;
 }
@@ -31,4 +63,17 @@ body {
   -moz-transition: all 0.3s ease-in;
   -ms-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
+}
+
+.posts {
+  width: 100%;
+  overflow-x: scroll;
+  @apply mt-2 mb-5 flex flex-row;
+  max-height: 13.6rem;
+  max-width: 100%;
+}
+
+.middle-col {
+  height: 100vh;
+  overflow-y: scroll;
 }

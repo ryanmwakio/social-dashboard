@@ -12,7 +12,7 @@ function LeftCol() {
       </div>
 
       <div className="my-3 flex justify-center">
-        <h3 className=" text-xs font-bold">Big Mitch</h3>
+        <h3 className=" text-sm font-bold">Big Mitch</h3>
       </div>
 
       <div className=" mt-7 flex w-full justify-between text-center">
