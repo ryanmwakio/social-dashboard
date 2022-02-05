@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  font-family: 'Public Sans', sans-serif;
+  line-height: 1.3;
+  font-size: 16px;
+  @apply bg-lightBlue;
+}
+
+.text-2xs {
+  font-size: 0.6rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.left-col {
+  @apply overflow-scroll bg-grayBrown px-7 py-24;
+  height: 100vh;
+}
+
+.dash-transition {
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
