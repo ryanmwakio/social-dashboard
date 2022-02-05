@@ -53,8 +53,14 @@ body {
 }
 
 .left-col {
-  @apply overflow-scroll bg-grayBrown px-7 py-24;
+  @apply overflow-scroll bg-grayBrown px-7 py-10 sm:py-24;
   height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .left-col {
+    height: auto;
+  }
 }
 
 .dash-transition {
@@ -78,9 +84,19 @@ body {
   overflow-y: scroll;
 }
 
+@media (max-width: 768px) {
+  .middle-col {
+    height: auto;
+  }
+}
+
 .right-col {
   height: 100vh;
   overflow-y: scroll;
 }
 
-
+@media (max-width: 768px) {
+  .right-col {
+    height: auto;
+  }
+}

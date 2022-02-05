@@ -4,7 +4,7 @@ function RightCol() {
   return (
     <div className="right-col">
       <div className="px-4">
-        <div className="my-10 flex justify-end">
+        <div className="my-2 flex justify-end sm:my-10">
           <a
             href=""
             className=" text-2xs rounded-xl bg-dashBlue py-2 px-3 text-white"
